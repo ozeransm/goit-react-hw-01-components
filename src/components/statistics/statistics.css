@@ -1,8 +1,8 @@
 .statistics{
     display: flex;
     flex-direction: column;
-    background-color: rgba(216, 213, 213, 0.243);
-    
+    background-color: rgba(216, 213, 213, 0.4);
+    padding: 40px 40px;
 }
 .title{
     width: 500px;

@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import 'components/profile/profile.css';
 export const Profile = ({ username, tag, location, avatar, stats:{followers, views, likes} }) => {
 return (
         <div className="profile">
@@ -9,7 +10,7 @@ return (
             className="avatar"
           />
           <p className="name">{username}</p>
-          <p className="tag">{tag}</p>
+          <p className="tag">@{tag}</p>
           <p className="location">{location}</p>
         </div>
 

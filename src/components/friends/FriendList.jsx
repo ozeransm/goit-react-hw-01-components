@@ -1,9 +1,9 @@
 import { FriendListItem } from "./friendsListItem";
-
+import css from "./friends.module.css";
 export const FriendList = (data)=>{
     
     return(
-        <ul className="friend-list">
+        <ul className={css["friend-list"]}>
             {
                 data.data.map(({ id, avatar, name, isOnline }, i)=>(
                     

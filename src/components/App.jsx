@@ -10,7 +10,7 @@ const { username, tag, location, avatar, stats }=user;
 
 export const App = () => {
   return (
-    <div>
+    <div className="container">
       <Profile username={username} tag={tag} location={location} avatar={avatar} stats={stats} />
       <Statistics title={'Upload stats'} data={data}/>
       <FriendList data={friendsData}/> 

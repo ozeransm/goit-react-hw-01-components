@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+
 export const TransactionHistoryItem = (({data: { type, amount, currency }})=>{
 return(
     <tr>

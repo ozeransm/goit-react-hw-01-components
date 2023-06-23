@@ -1,7 +1,8 @@
 import { TransactionHistoryItem } from "components/transactionHistory/transactionHistoryItem"
+import css from "./transactionHistory.module.css";
 export const TransactionHistory = (data)=>{
     return(
-        <table className="transaction-history">
+        <table className={css["transaction-history"]}>
         <thead>
             <tr>
                 <th>Type</th>

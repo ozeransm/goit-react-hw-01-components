@@ -3,7 +3,7 @@ import user from "components/user.json";
 import { Statistics } from "components/Statistics/Statistics";
 import data from "components/data.json";
 import friendsData from "components/friends.json";
-import { FriendList } from "./Friends/FriendList";
+import { FriendList } from "components/Friends/FriendList";
 import transactionHistory from "components/transactions.json";
 import { TransactionHistory } from "components/TransactionHistory/TransactionHistory";
 const { username, tag, location, avatar, stats }=user;

@@ -5,7 +5,7 @@ import data from "components/data.json";
 import friendsData from "components/friends.json";
 import { FriendList } from "./friends/FriendList";
 import transactionHistory from "components/transactions.json";
-import { TransactionHistory } from "./transactionHistory/TransactionHistory";
+import { TransactionHistory } from "./transactionHistory/transactionHistory";
 const { username, tag, location, avatar, stats }=user;
 
 export const App = () => {

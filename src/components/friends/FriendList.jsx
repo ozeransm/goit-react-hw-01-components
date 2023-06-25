@@ -15,10 +15,10 @@ export const FriendList = ({data})=>{
         </ul>
     );
 }
-PropTypes.FriendList = {
+FriendList.propTypes = {
     data: PropTypes.arrayOf(
         PropTypes.shape({
-            id: PropTypes.string.isRequired,
+            id: PropTypes.number.isRequired,
            
         }).isRequired
     ).isRequired,

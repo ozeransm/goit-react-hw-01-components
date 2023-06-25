@@ -24,7 +24,7 @@ export const Statistics = ({title='', data})=>{
 
 }
 
-PropTypes.Statistics = {
+Statistics.propTypes = {
     title: PropTypes.string,
     data: PropTypes.arrayOf(
         PropTypes.shape({
